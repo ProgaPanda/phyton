@@ -1,0 +1,132 @@
+@font-face { font-family: OpenSansL; src: url('../../css/fonts/OpenSans-Light.woff'); } 
+@font-face { font-family: OpenSansLI; src: url('../../css/fonts/OpenSans-LightItalic.woff'); } 
+@font-face { font-family: OpenSans; src: url('../../css/fonts/OpenSans-Regular.woff'); } 
+@font-face { font-family: OpenSansI; src: url('../../css/fonts/OpenSans-Italic.woff'); } 
+@font-face { font-family: OpenSansSB; src: url('../../css/fonts/OpenSans-Semibold.woff'); } 
+@font-face { font-family: OpenSansSBI; src: url('../../css/fonts/OpenSans-SemiboldItalic.woff'); } 
+@font-face { font-family: OpenSansB; src: url('../../css/fonts/OpenSans-Bold.woff'); } 
+
+*
+{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+text-rendering: optimizeLegibility;    
+overflow:hidden;
+}
+
+input
+{
+-webkit-user-select: auto !important;
+-khtml-user-select: auto !important;
+-moz-user-select: auto !important;
+-ms-user-select: auto !important;
+user-select: auto !important;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.action-bar {
+    position: relative;
+    display: block;
+    margin-top: 0;
+    width: 100%;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #00d2ff;
+    overflow: hidden;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 20px;
+    padding-right: 49px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #b9b9b9;
+}
+
+.caret {
+    font-family: OpenSansL;
+    font-size: 2.5rem;
+    -webkit-transform: scale(1,1.46);
+    line-height: 60px;
+    padding-left: 15px;
+    color: #b9b9b9;
+    float: left;
+    text-decoration: none;
+}
+.caret:active {
+    color: #5f5f5f;
+}
+/*----------------*/
+#chp_title {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-family: OpenSansL;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+#que {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-family: OpenSansI;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+.ProblemsBtns {
+
+}
+
+.btn {
+    display: table;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #ffffff;
+    margin-bottom: 25px;
+}
+
+.btnTitle {
+    font-family: OpenSansI;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.alg {
+    font-family: OpenSansLI;
+    font-size: 1.5rem;
+    color: #d8d8d8;
+    letter-spacing: 2px;
+}
+
+a:active>.btn:active,.btnTitle:active {
+    color: #dddddd;
+    border-color: #dddddd;
+}
+
+
+
+
+
